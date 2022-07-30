@@ -1,0 +1,31 @@
+
+.calculator{
+    background-color: lightgoldenrodyellow;
+    height: 400px;
+    width: 320px;
+    border-radius: 8px;
+}
+.calculator-display{
+    background-color: #fff;
+    color: black;
+    height: 130px;
+    padding:10px;
+   text-align: right;
+}
+.calculator-display>#total{
+    color: lightsalmon;
+}
+.calculator-input{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1fr 1fr;
+    padding:10px
+}
+.btn{
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white!important;
+}
